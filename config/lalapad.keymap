@@ -259,12 +259,14 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mo SCROLL_R_LAYER
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &kp LC(LS(TAB))  &kp LC(TAB)     &kp F5        &kp LC(W)      &kp LC(W)     &kp F5         &kp LC(LS(TAB))  &kp LC(TAB)     &trans  &trans
+&trans  &mo 5   &mo 5            &mkp MB1        &mkp MB2      &mkp MB3       &mkp MB3      &mkp MB1       &mkp MB2         &mo 5           &mo 5   &trans
+&trans  &trans  &msc SCRL_UP     &msc SCRL_DOWN  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LA(LEFT)  &kp LA(RIGHT)  &msc SCRL_UP     &msc SCRL_DOWN  &trans  &trans
+&trans  &trans  &trans           &trans          &trans        &trans         &trans        &trans         &trans           &trans          &trans  &trans
+                &trans           &trans          &trans        &trans         &trans        &trans         &trans           &trans
             >;
+
+            sensor-bindings = <&scroll_up_down>, <&scroll_up_down>;
         };
 
         SCROLL_R_LAYER {
