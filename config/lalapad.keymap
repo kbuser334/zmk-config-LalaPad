@@ -225,7 +225,7 @@
 &kp GRAVE  &trans   &kp TAB        &kp UP         &kp LS(NUMBER_1)  &kp LS(SLASH)  &kp MINUS            &kp PLUS   &kp LS(INTERNATIONAL_3)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &trans
 &trans     &kp TAB  &kp LEFT       &kp DOWN       &kp RIGHT         &kp MINUS      &kp SEMICOLON        &kp COLON  &kp LEFT_BRACKET         &kp RIGHT_BRACKET  &kp BACKSLASH     &trans
 &trans     &trans   &kp BACKSLASH  &kp LS(EQUAL)  &kp COMMA         &kp PERIOD     &kp INTERNATIONAL_3  &kp HASH   &kp INTERNATIONAL_1      &kp SLASH          &trans            &trans
-&trans     &trans   &trans         &trans         &trans            &trans         &trans               &trans     &kp DELETE               &trans             &trans            &trans
+&trans     &trans   &trans         &trans         &trans            &mo 3          &trans               &trans     &kp DELETE               &trans             &trans            &trans
                     &trans         &trans         &trans            &trans         &trans               &trans     &trans                   &trans
             >;
         };
